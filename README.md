@@ -1,76 +1,42 @@
-<<<<<<< HEAD
-# deepseek-vscode README
+# deepseek-vscode
 
-This is the README for your extension "deepseek-vscode". After writing up a brief description, we recommend including the following sections.
+An interactive VS Code extension that integrates with Ollama's AI models to provide a seamless chat experience. Users can submit queries and receive real-time responses directly within VS Code's webview panel. Ideal for developers looking to leverage AI tools while coding.
 
 ## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Real-time Chat:** Submit queries to Ollama's AI model and get responses within the VS Code environment.
+- **Interactive Webview Panel:** A custom panel that serves as the interface for chatting with the AI model.
+- **Seamless Integration:** The extension integrates easily into your VS Code workspace, enhancing productivity with AI assistance.
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Ollama API:** This extension requires Ollama's API to interact with the AI model.
+- **VS Code**: Ensure you are using an up-to-date version of Visual Studio Code.
 
 ## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Currently, this extension does not add any settings to the VS Code configuration.
 
 ## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **None**: If you encounter any issues, please feel free to open an issue on GitHub.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+- Initial release of `deepseek-vscode`. Includes core functionality to submit queries to Ollama's AI model and receive responses in real-time.
 
 ### 1.1.0
+- Added interactive chat features within a custom VS Code webview panel.
+- Improved UI styling for a seamless user experience.
 
-Added features X, Y, and Z.
+## Following Extension Guidelines
+Ensure that you've read through the [extension guidelines](https://code.visualstudio.com/api/working-with-extensions) and follow the best practices for creating your extension.
 
----
+## Extension Guidelines
+For more information, you can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- Split the editor (Cmd+\ on macOS or Ctrl+\ on Windows and Linux).
+- Toggle preview (Shift+Cmd+V on macOS or Shift+Ctrl+V on Windows and Linux).
+- Press Ctrl+Space (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## Following extension guidelines
+## For More Information
+- [Visual Studio Code's Markdown Support](https://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://www.markdownguide.org/cheat-sheet/)
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-=======
-# deepseek-vscode
-An interactive VS Code extension that integrates with Ollama's AI models to provide a seamless chat experience. Users can submit queries and receive real-time responses directly within VS Code's webview panel. Ideal for developers looking to leverage AI tools while coding.
->>>>>>> f275d96e8da1dae04fdd3d57353a74786a322ddb
+Enjoy using deepseek-vscode!
